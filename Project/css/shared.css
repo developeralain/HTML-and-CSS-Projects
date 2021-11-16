@@ -30,7 +30,7 @@ h1 {
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    color: #E91C1C;
+    color: #f0a0dc;
     text-shadow: 2px 2px 3px rgba(0,0,0,5);
 }
 
@@ -147,7 +147,7 @@ HOME SECTION STYLES
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -0-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     width: 100%;
     display: block;
@@ -159,17 +159,17 @@ HOME SECTION STYLES
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba(0,0,0,0.9)
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
     font-variant: small-caps;
-    color: #fff;
-    letter-spacing: 5pt;
-    word-spacing: 21pt;
+    color: #eeeeee;
+    letter-spacing: 4pt;
+    word-spacing: 12pt;
     font-size: 4.5em;
     text-align: left;
     font-family: impact, sans-serif;
-    line-height: 2; 
+    line-height: 0; 
     font-weight: 900;
-    border: 5px double #fff;
+    border: 5px double #eeeeee;
     padding: 10px;
 }
 
@@ -191,7 +191,7 @@ HOME SECTION STYLES
 /*-----------------------------------------------------
 CONTACT STYLES
 -------------------------------------------------*/
-.flex-container: {
+.flex-container {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
@@ -199,7 +199,7 @@ CONTACT STYLES
     border-radius: 8px;
     margin: 9px auto;
     background-color: rgba(100,65,0,0.3);
-    box-shadow 2px 2px 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
 #contact {
@@ -214,7 +214,9 @@ CONTACT STYLES
     background-color: rgba(100,65,0,0.3);
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
-
+.rsvp-text {
+    text-align: center;
+}
 .reservation h2 {
     width: 70%;
     text-align: center;
@@ -263,13 +265,13 @@ CONTACT STYLES
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #0D0E0F;
+    color: #bba06e;
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090B0D;
     margin: 10px 1em;
     border-radius: 7px;
-    background: #13161B;
+    background: #ffffff;
     box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
     font-family: 'Raleway', sans-serif;
 }
@@ -283,11 +285,11 @@ CONTACT STYLES
 
 .terms {
     margin-top: 13%;
-    margin: 30px 1px 0 0;
+    margin: 30px 33px 33px 33px;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
-    color: #000;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -308,8 +310,9 @@ CONTACT STYLES
     font-weight: 900;
     outline: none;
     text-align: center;
+    align-items: center
     font-family: 'Raleway', sans-serif;
-    margin: 9px 3%;
+    margin: 9px 39%;
     padding: 7px 0px;
     width: 25%;
     font-size: 18px;
@@ -321,7 +324,7 @@ CONTACT STYLES
 
 .submit input[type="submit"]:hover {
     color: #000;
-    background-color: #0D0E0F;
+    background-color: #374858;
     box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
 }
 
@@ -333,5 +336,5 @@ FOOTER STYLES
     color: #000;
     text-shadow: 2px 2px 0px 0 (0,0,0,0.4);
     padding: 20px 50px 20px 50px;
-    text-align: right;
+    text-align: center;
 }
