@@ -8,7 +8,7 @@
     <body>
         
         <nav>
-            <div class="wrapper">
+            <div class="navwrapper">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#ourpuppies">Our Puppies</a></li>
@@ -20,19 +20,13 @@
                 </ul>
             </div>
         </nav>
-        <div class="wrapper">
-            <h1>Front Page</h1>
-        </div>
     
-                    
-             
-            </div>
         </div>
         <!--END NAV BAR-->
 
         <!--HOME-->
         <div id="home">
-            <header class="page-title">
+            <header>
                 <h1>Frankenmuth Mini Aussies</h1>
             </header>
         <!--END HOME-->
@@ -40,52 +34,43 @@
         <!--OUR PUPPIES-->
         <section>
             <div id="ourpuppies">
-                <h1>Our Puppies</h1>
-                <h2>Lacie's First Litter</h2>
+                <div class="ourpuppies">
+                    <h1>Our Puppies</h1>
+                    <h2>Lacie's First Litter</h2>
+                </div>
                 <p>Lacie had her first litter on October 2nd 2021. She birthed 7 beautiful Puppies
             and has been an attentive and caring mother ever since. 
                 </p>
                 <p>At this time, 3 puppies are available: Orion, Pavo, and Persius.</p>
-                <div><!--this <div> denotes the entire gallery - ALL THE IMAGES AS A WHOLE-->
+                <div class="flex-box"><!--this <div> denotes the entire gallery - ALL THE IMAGES AS A WHOLE-->
                     
                     <!--PHOTO-CONTAINER 1-->
-                    <div> <!--this <div> denotes the actual 'image package' and will have the image border-->
-                        <div> <!--this <div> will have our image-->
+                    <div class="photo-container"> <!--this <div> denotes the actual 'image package' and will have the image border-->
+                        <div class="photo"> <!--this <div> will have our image-->
                             <img src="./images/puppy_3.jpg" alt="Orion">
-                            <div> <!--this <div> is the image overlay-->
-                                <h3>Click to Enlarge</h3>
-                                <p>Take a look - he's available! See our 'Reserve a Puppy' page to make him
-                                    your own
-                                </p>
-                            </div>
+                            <h2>Orion</h2>
                         </div>
                     </div>
                     <!--END PHOTO CONTAINER-->
 
                       <!--PHOTO-CONTAINER 2-->
-                      <div> <!--this <div> denotes the actual 'image package' and will have the image border-->
-                        <div> <!--this <div> will have our image-->
+                    <div class="photo-container">
+                        <!--this <div> denotes the actual 'image package' and will have the image border-->
+                        <div class="photo">
+                            <!--this <div> will have our image-->
                             <img src="./images/puppy_1.jpg" alt="Pavo">
-                            <div> <!--this <div> is the image overlay-->
-                                <h3>Click to Enlarge</h3>
-                                <p>Take a look - he's available! See our 'Reserve a Puppy' page to make him
-                                    your own
-                                </p>
-                            </div>
+                            <h2>Pavo</h2>
                         </div>
                     </div>
                     <!--END PHOTO CONTAINER-->
 
                      <!--PHOTO-CONTAINER 2-->
-                     <div> <!--this <div> denotes the actual 'image package' and will have the image border-->
-                        <div> <!--this <div> will have our image-->
+                    <div class="photo-container">
+                        <!--this <div> denotes the actual 'image package' and will have the image border-->
+                        <div class="photo">
+                            <!--this <div> will have our image-->
                             <img src="./images/puppy_2.jpg" alt="Persius">
-                            <div> <!--this <div> is the image overlay-->
-                                <h3>Click to Enlarge</h3>
-                                <p>Take a look - he's available! See our 'Reserve a Puppy' page to make him
-                                    your own
-                                </p>
-                            </div>
+                            <h2>Persius</h2>
                         </div>
                     </div>
                     <!--END PHOTO CONTAINER-->
@@ -96,7 +81,7 @@
         <section>
             <div id="ourdame">
                 <img src="./images/dame_1.jpg">
-                <h1>Our Dame</h1><br>
+                <h1>Our Dame</h1>
                 <h2>Lacie the Mini Aussie</h2>
                 <p>Lacie is a huge sweetheart and loves to cuddle with her owners. She will often 
             jump into your lap or arms when you least expect it. If she's not in your lap,
@@ -135,7 +120,7 @@
                             Please provide us with your basic contact information so that we may arrange for 
                             securing the puppy of your dreams
                         </p>
-                        <div>
+                        <div class="form-container">
                             <form action="" method="post">
                                 <input class="rsvp" type="text" value="First Name">
                                 <input class="rsvp" type="text" value="Last Name">
@@ -144,8 +129,10 @@
                                 <div class="form-spacer">
                                     <label class="terms">Terms and Conditions</label>
                                 </div>
-                                <div>
-                                    <input type="submit" value="submit">
+                                <div class="submit-container">
+                                    <div class="submit">
+                                        <input type="submit" value="submit">
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -167,8 +154,9 @@
                     Her adventure began in October 2021 when her dame, Lacie, conceived 7 gorgeous, happy and healthy puppies.</p>
                 <p>Frankenmuth Mini Aussies offers a warm and loving environment for puppies to grow and develop into the best versions of themselves. We live in a safe community in a rural area with plenty of room to run around and play.
                     When considering one of our puppies you can be certain that they have been cared for very well, with love and ample attention, and that they will be happy and healthy if you decide to take one home with you.</p>
-                
-                <iframe width="857" height="643" src="https://www.youtube.com/embed/HGDUYP-Ng-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="videowrap">
+                    <iframe width="857" height="643" src="https://www.youtube.com/embed/HGDUYP-Ng-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </section>
 

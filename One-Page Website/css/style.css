@@ -1,67 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
 body {
     background-color: #eee;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 
 }
 
-.wrapper {
-    margin: 0 auto 0 60px;
-    width: 80%;
-   
+header {
+    text-align: center;
+    padding: 20px;
+    height: 200px;
 }
 
-.img-dame {
-    width: 512px;
-    height: 341px;
-    background-image: url(../images/dame_1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.img-dame:hover {
-    background-size: 200%;
-}
-
-.vid-pup {
-    width: 100%;
-}
-
-.youtube-pup {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25px;
-    height: 0px;
-}
-
-.youtube-pup iframe {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-    width: 100%;
-}
 nav {
     width: 100%;
     height: 100px;
     background-color: #fff;
-}
-ul {
-    margin-left: 60px;
+    margin: 0px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
 }
 
-ul li {
-    list-style: none;
-    display: inline-block;
-    float: left;
-    line-height: 100px;
-}
 
 ul li a {
    text-decoration: none; 
@@ -77,4 +40,159 @@ ul li a:hover {
    color: red;
 
    
+}
+
+img {
+    width: 300px;
+    height: 169 px;
+    padding: 20px;
+
+}
+
+footer {
+    text-align: center;
+}
+
+section #ourdame {
+    padding: 100px;
+}
+
+section #oursire {
+    padding-bottom: 100px;
+}
+
+
+.navwrapper {
+    text-align: center;
+    
+}
+.navwrapper ul {
+    margin: 0 auto 0 60px;
+    width: 80%;
+    display: inline-block;
+}
+
+.navwrapper ul li {
+     list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+}
+
+.ourpuppies {
+    margin: 15px 15px;
+    padding: 0px;
+}
+
+.ourpuppies h1 h2 {
+    margin: 50px 50px
+    height: 50px;
+}
+
+}
+
+
+.photo-container {
+    width: 300px;
+    height: 169px;
+    margin: 15px auto;      
+}
+
+.overlay {
+    
+}
+}
+#ourdame {
+    width: 512px;
+    height: 341px;
+    padding: 500px;
+    margin: 50px;
+    background-color: red;
+
+}
+
+.img-dame:hover {
+    background-size: 200%;
+}
+
+
+#aboutus h2 {
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+#aboutus p {
+    padding: 10px;
+    text-align: left;
+}
+
+.videowrap {
+    background-color: rgb(173, 165, 154);
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+
+form {
+    text-size: 150px;
+    font-weight: 600;
+    color:blanchedalmond;
+    padding: 50px;
+    display: inline-block;
+
+}
+form input {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.form-container {
+    text-align: center;
+}
+
+.submit-container {
+    display: inline-block;
+    text-align: center;
+    
+}
+.submit input[type="submit"] {
+    padding: 10px;
+    width: 110px;
+    margin: 9px 9px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: greenyellow;
+    color: grey;
+    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.submit input[type="submit"]:hover {
+    color: black;
+    background-color: grey;
+    box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5)
+}
+
+ #aboutus iframe {
+    height: 400px;
+    width: 533px;
+    margin: 50px 50px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    
 }
